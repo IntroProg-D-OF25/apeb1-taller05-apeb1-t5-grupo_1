@@ -1,7 +1,10 @@
 import java.util.Scanner;
+
 /**
- * Clasificar a una persona en una categoría de edad (niño, adolescente, adulto) en función de su edad.
+ * Clasificar a una persona en una categoría de edad (niño, adolescente, adulto)
+ * en función de su edad.
  */
+
 public class Problema06_CategoriaEdad {
     public static void main(String[] args) {
         int edad;
@@ -9,17 +12,19 @@ public class Problema06_CategoriaEdad {
 
         System.out.println("Ingrese su edad");
         edad = teclado.nextInt();
+        teclado.close();
 
         if (edad >= 1 && edad <= 14) {
             System.out.println("Niño");
         } else if (edad > 15 && edad < 18) {
-            System.out.println("Adolecente");
+            System.out.println("Adolescente");
         } else if (edad >= 18) {
             System.out.println("Adulto");
         }
     }
-    }
-/**
+}
+
+/*
  * Ingrese su edad
  * 18
  * Adulto
