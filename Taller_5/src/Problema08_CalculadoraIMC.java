@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/**
+/*
  * Calculadora de IMC: Calcular el índice de masa corporal (IMC) de una persona
  * y clasificarla
  * en función de su valor (bajo peso, peso normal, sobrepeso, etc.).
@@ -25,7 +25,7 @@ public class Problema08_CalculadoraIMC {
         } else if (IMC >= 25 && IMC < 29.9) {
             System.out.println("Sobrepeso");
         } else {
-            System.out.println("obesidad");
+            System.out.println("Obesidad");
         }
     }
 }
