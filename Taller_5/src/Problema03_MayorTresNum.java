@@ -1,3 +1,8 @@
+/*
+ * Mayor de tres números: Dados tres números, determinar cuál
+ *  es el mayor. Si son iguales, mostrar un mensaje.
+ */
+
 import java.util.Scanner;
 
 public class Problema03_MayorTresNum {
@@ -22,3 +27,14 @@ public class Problema03_MayorTresNum {
         }
     }
 }
+
+/*
+ * Salida de resultados
+ * Ingrese el Primer numero
+ * 2
+ * Ingrese el Segundo numero
+ * 1
+ * Ingrese el Tercer numero
+ * 3
+ * 3.0 Es el mayor numero
+ */

@@ -1,6 +1,6 @@
 /*
 * Edad para Votar: Determinar si una persona es elegible para
-*   votar en función de su edad (mayor o igual a 18 años).
+* votar en función de su edad (mayor o igual a 18 años).
 */
 
 import java.util.Scanner;
@@ -21,3 +21,9 @@ public class Problema01_EdadVotar {
         }
     }
 }
+
+/*
+ * Ingrese su edad:
+ * 19
+ * Vota
+ */
